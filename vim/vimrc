@@ -1,0 +1,5 @@
+syntax on
+set ts=2
+set bg=dark
+set number
+set paste
