@@ -122,15 +122,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
-alias dgit='git --git-dir ~/.dotfiles/.git --work-tree /home/elisboa'
-
-
-
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-
-
 
 alias tmgit="git --git-dir $HOME/.dotfiles/.git --work-tree $HOME"
