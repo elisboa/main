@@ -105,10 +105,12 @@ plugins=(
 	screen
 	#tmux
 	kubectl
-	#auto-suggestion
-	#zsh-syntax-highlighting
+	zsh-autosuggestions
+	zsh-syntax-highlighting
 	aws
 	bgnotify
+	vscode
+  sudo
 )
 
 source $ZSH/oh-my-zsh.sh
