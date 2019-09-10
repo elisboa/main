@@ -3,6 +3,7 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/elisboa/.oh-my-zsh"
+export PATH=$PATH:/usr/local/bin
 
 if [ ! -z ${SCREEN_NO} ] 
 then
