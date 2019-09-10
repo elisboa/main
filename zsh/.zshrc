@@ -14,6 +14,25 @@ fi
 
 alias ls='ls --color=tty -F'
 
+## Customs
+
+# alias for linux-time-machine.sh project
+alias tmgit="git --git-dir $HOME/.dotfiles/.git --work-tree $HOME"
+#export TERM=screen-256color
+export EDITOR=/usr/bin/vim
+
+alias kbgit='git --git-dir /home/elisboa/.kbgit/.git --work-tree /home/elisboa'
+export PATH=$PATH:/snap/bin
+
+
+function vaitentando() {
+    until $@
+    do
+        sleep 1
+        echo -e "Tentando novamente rodar o comando $1"
+    done
+}
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
