@@ -146,5 +146,4 @@ source $ZSH/oh-my-zsh.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# alias for linux-time-machine.sh project
-alias tmgit="git --git-dir $HOME/.dotfiles/.git --work-tree $HOME"
+
