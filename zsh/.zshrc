@@ -17,7 +17,7 @@ alias ls='ls --color=tty -F'
 ## Customs
 
 # alias for linux-time-machine.sh project
-alias tmgit="git --git-dir $HOME/.dotfiles/.git --work-tree $HOME"
+alias tmgit="git --git-dir $HOME/.tmgit/.git --work-tree $HOME"
 #export TERM=screen-256color
 export EDITOR=/usr/bin/vim
 
