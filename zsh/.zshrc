@@ -111,6 +111,7 @@ plugins=(
 	bgnotify
 	vscode
   sudo
+  docker
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -146,4 +147,17 @@ source $ZSH/oh-my-zsh.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+alias lc='colorls --sort-dirs --report'
+export LANG="en_US.UTF-8"
 
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /home/elisboa/git/github/Caduedu14/cerberus/node_modules/tabtab/.completions/serverless.zsh ]] && . /home/elisboa/git/github/Caduedu14/cerberus/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /home/elisboa/git/github/Caduedu14/cerberus/node_modules/tabtab/.completions/sls.zsh ]] && . /home/elisboa/git/github/Caduedu14/cerberus/node_modules/tabtab/.completions/sls.zsh
+# tabtab source for slss package
+# uninstall by removing these lines or running `tabtab uninstall slss`
+[[ -f /home/elisboa/git/github/Caduedu14/cerberus/node_modules/tabtab/.completions/slss.zsh ]] && . /home/elisboa/git/github/Caduedu14/cerberus/node_modules/tabtab/.completions/slss.zsh
+
+alias tmgit='/usr/bin/git --git-dir /home/elisboa/.dotfiles/.git --work-tree /home/elisboa'
